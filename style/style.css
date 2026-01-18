@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.nav{
+    align-items: center;
+}
+.nav-btn{
+    background: linear-gradient(to top right, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+}
+.nav-logo{
+    background: linear-gradient(to top ,rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+    color:transparent;
+    -webkit-background-clip: text;
+}
+.fa-arrow-right{
+   animation: move-arrow 0.90s ease-in-out  infinite alternate;
+}
+@keyframes move-arrow{
+    0%{
+         transform: translateX(0);
+        }
+        100%{
+            opacity:0.5;
+            transform: translateX(5px);
+    }
+}
