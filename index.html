@@ -1,25 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyTechWave</title>
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-     <script src="https://kit.fontawesome.com/aff33fe961.js" crossorigin="anonymous"></script>
-     <link rel="stylesheet" href="./style/style.css">
-
-</head>
-<body class="font-[inter]">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script
+      src="https://kit.fontawesome.com/aff33fe961.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body class="font-[inter]">
     <header class="bg-[#1A0B2E] h-[92px] px-[200px] py-[16px]">
-        <nav class="nav flex justify-between h-full">
-            <h1 class="text-white text-5xl font-bold">The<span class="nav-logo">Wave</span></h1>
-            <ul class="flex gap-[30px]">
-                <li><a href="#" class="text-white">About</a></li>
-                <li><a href="#" class="text-white">Episodes</a></li>
-                <li><a href="#" class="text-white">Host</a></li>
-            </ul>
-            <button  class="nav-btn text-white py-[12px] px-[16px] rounded-4xl text-base">Subscribe<i class="fa-solid fa-arrow-right ml-[4px]"></i></button>
-        </nav>
+      <nav class="nav flex justify-between h-full">
+        <h1 class="text-white text-5xl font-bold">
+          The<span class="nav-logo">Wave</span>
+        </h1>
+        <ul class="flex gap-[30px]">
+          <li><a href="#" class="text-white">About</a></li>
+          <li><a href="#" class="text-white">Episodes</a></li>
+          <li><a href="#" class="text-white">Host</a></li>
+        </ul>
+        <button
+          class="nav-btn text-white py-[12px] px-[16px] rounded-4xl text-base"
+        >
+          Subscribe<i class="fa-solid fa-arrow-right ml-[4px]"></i>
+        </button>
+      </nav>
     </header>
-</body>
+
+    <main>
+      <section
+        class="banner h-[760px] w-full bg-[url(./img/hero-bg.png)] bg-no-repeat bg-cover bg-center"
+      >
+        <div
+          class="banner-circle max-w-[550px] max-h-[558px] relative top-[100px] mx-auto"
+        >
+          <img
+            src="./img/hero-circle.png"
+            alt="hero-circle"
+            class="mx-auto max-w-[350px]"
+          />
+          <img
+            src="./img/microphone.png"
+            alt="microphone"
+            class="absolute top-20 left-53"
+          />
+
+          <h1 class="text-white text-6xl font-bold text-center pt-[40px]">
+            TheWave
+          </h1>
+          <p class="text-white text-sm text-center opacity-[0.8]">
+            Your daily dose of tech insights, productivity hacks, and personal
+            growth
+          </p>
+          <div class="btns flex items-center justify-around mt-[20px]">
+            <button
+              class="flex gap-[8px] items-center text-base py-[10px] px-[15px] nav-btn rounded-4xl text-white"
+            >
+              <img src="./img/spotify.png" alt="spotify-logo" class="w-5 h-5" />
+              Listen on Spotify
+            </button>
+            <button
+              class="flex gap-[8px] items-center text-base py-[10px] px-[15px] border-[2px] rounded-4xl text-[#00FF88]"
+            >
+              <img src="./img/message.png" alt="message-png" class="w-5 h-4" />
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </section>
+
+      
+    </main>
+  </body>
 </html>
