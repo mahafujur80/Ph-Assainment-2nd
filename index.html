@@ -33,40 +33,38 @@
 
     <main>
       <section
-        class="haide-for-responsive max-[576px]:h-[466px] min-[576px]:max-[992px]:h-[600] banner h-[760px] w-full bg-[url(./img/hero-bg.png)] bg-no-repeat bg-cover bg-center"
+        class="max-[576px]:h-auto min-[576px]:max-[992px]:h-auto banner h-[760px] w-full bg-[url(./img/hero-bg.png)] bg-no-repeat bg-cover bg-center"
       >
-        <div
-          class="max-[576px]:top-[60px] banner-circle max-w-[550px] max-h-[558px] relative top-[100px] mx-auto"
-        >
-          <img
-            src="./img/hero-circle.png"
-            alt="hero-circle"
-            class="mx-auto max-w-[220px]"
-          />
-          <img
-            
-          />
+        <div class="max-[576px]:top-[60px]  flex flex-col items-center justify-center max-w-[550px] max-h-[558px]  mx-auto">
+         <div class="max-[576px]:max-w-[150px] max-[576px]:mt-[50px] min-[576px]:max-[992px]:max-w-[200px] min-[576px]:max-[992px]:mt-[50px] banner-circle  max-w-[350px] mt-[120px] relative">
+              <img src="./img/hero-circle.png" alt="" class="w-full">
+              <div class="max-[576px]:max-w-[40px] min-[576px]:max-[992px]:max-w-[80px] absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
+                <img src="./img/microphone.png" alt="" class="w-full">
+              </div>
+         </div>
 
-          <h1 class="text-white text-6xl font-bold text-center pt-[40px]">
+          <div>
+            <h1 class="max-[576px]:text-2xl min-[576px]:max-[992px]:text-3xl text-white text-6xl font-bold text-center pt-[40px]">
             TheWave
           </h1>
-          <p class="text-white text-sm text-center opacity-[0.8]">
+          <p class="max-[576px]:text-xs max-[576px]:text-balance min-[576px]:max-[992px]:text-sm text-white text-sm text-center opacity-[0.8]">
             Your daily dose of tech insights, productivity hacks, and personal
             growth
           </p>
-          <div class="btns flex items-center justify-around mt-[20px]">
+          <div class=" btns flex items-center justify-around mt-[20px]">
             <button
-              class="flex gap-[8px] items-center text-base py-[10px] px-[15px] nav-btn rounded-4xl text-white"
+              class="max-[576px]:text-xs min-[576px]:max-[992px]:text-sm flex gap-[8px] items-center text-base py-[10px] px-[15px] nav-btn rounded-4xl text-white"
             >
               <img src="./img/spotify.png" alt="spotify-logo" class="w-5 h-5" />
               Listen on Spotify
             </button>
             <button
-              class="flex gap-[8px] items-center text-base py-[10px] px-[15px] border-[2px] rounded-4xl text-[#00FF88]"
+              class="max-[576px]:text-xs min-[576px]:max-[992px]:text-sm flex gap-[8px] items-center text-base py-[10px] px-[15px] border-[2px] rounded-4xl text-[#00FF88]"
             >
               <img src="./img/message.png" alt="message-png" class="w-5 h-4" />
               Subscribe
             </button>
+          </div>
           </div>
         </div>
       </section>
@@ -118,7 +116,7 @@
         </div>
       </section>
 
-      <section class="  max-[576px]:h-auto min-[576px]:max-[992px]:h-auto why-choose h-[1100px] bg-[#230E3D] ">
+      <section class="  max-[576px]:h-auto min-[576px]:max-[992px]:h-auto min-[576px]:max-[992px]:pb-[50px] max-[576px]:pb-[50px]  why-choose h-[1100px] bg-[#230E3D] ">
         <div class="why-choose-title mx-auto">
                     <h1 class="max-[576px]:text-2xl max-[576px]:py-[20px] min-[576px]:max-[992px]:text-3xl text-4xl text-white text-center font-bold py-[50px]">Why Choose TechWave</h1>
                   </div>
@@ -151,30 +149,30 @@
         </div>
       </section>
 
-      <section class=" max-[576px]:h-auto feature-ep bg-[#1A0B2E] h-[700px]">
+      <section class=" max-[576px]:h-auto min-[576px]:max-[992px]:h-auto feature-ep bg-[#1A0B2E] h-auto pb-[20px]">
         <div class="feature-container w-[90%] mx-auto">
              <div class="feature-video mx-auto">
-                <h1 class=" max-[576px]:text-2xl text-4xl text-center font-bold text-white pt-[50px]">Featured Episodes</h1>
-                 <div class="max-[576px]:grid-cols-1 max-[576px]:h-auto ep-video grid grid-cols-3 gap-[20px] w-[95%]  mt-[50px] mx-auto">
-                      <div class="bg-[#250D44]  rounded-2xl p-[15px] relative
+                <h1 class=" max-[576px]:text-2xl min-[576px]:max-[992px]:text-3xl text-4xl text-center font-bold text-white pt-[50px]">Featured Episodes</h1>
+                 <div class="max-[576px]:grid-cols-1 min-[576px]:max-[992px]:grid-cols-1 max-[576px]:h-auto ep-video grid grid-cols-3 gap-[20px] w-[95%]  mt-[50px] mx-auto">
+                      <div class="bg-[#250D44]  rounded-2xl p-[15px] 
             max-[576px]:pb-[50px]">
-                        <iframe class="max-[576px]:h-[150px] w-full h-[214px] rounded-2xl" width="800" height="614" src="https://www.youtube.com/embed/muBBYZXYgoM?list=PL3Xso75sMgAG0egxTA3_Yv55bO6gDFrlH" title="এই ১১০ মিনিট আপনার চিন্তাকে নাড়িয়ে দিবে | Omar Al Zabir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
-                          <h2 class="py-[10px] text-white text-xl leading-5 font-semibold">How to protect yourself and family in this age of AI and Internet?</h2>
-                          <p class=" text-white text-sm opacity-[0.8]">On the first podcast of 2026, Omar Al Jabir's brother joins us. In today's episode we talk about Who is controlling the big AIs?</p>
-                          <p class="flex gap-2 text-[#00FF88] items-center absolute bottom-[25px]"><img src="./img/clock.png" alt="clock">110 min</p>
+                        <iframe class="w-full h-[214px] rounded-2xl" width="800" height="614" src="https://www.youtube.com/embed/muBBYZXYgoM?list=PL3Xso75sMgAG0egxTA3_Yv55bO6gDFrlH" title="এই ১১০ মিনিট আপনার চিন্তাকে নাড়িয়ে দিবে | Omar Al Zabir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+                          <h2 class="min-[576px]:max-[992px]:text-2xl py-[10px] text-white text-xl leading-5 font-semibold">How to protect yourself and family in this age of AI and Internet?</h2>
+                          <p class="min-[576px]:max-[992px]:text-base text-white text-sm opacity-[0.8]">On the first podcast of 2026, Omar Al Jabir's brother joins us. In today's episode we talk about Who is controlling the big AIs?</p>
+                          <p class="max-[576px]:-translate-y-[-20px] flex gap-2 text-[#00FF88] items-center"><img src="./img/clock.png" alt="clock">110 min</p>
                       </div>
-                      <div class="bg-[#250D44] rounded-2xl p-[15px] relative
+                      <div class="bg-[#250D44] rounded-2xl p-[15px] 
             max-[576px]:pb-[50px]">
                         <iframe class="w-full h-[214px] rounded-2xl" width="800" height="614" src="https://www.youtube.com/embed/qtnx9uWpYlM?list=PL3Xso75sMgAG0egxTA3_Yv55bO6gDFrlH" title="একজন আইডিয়াল জুনিয়র ডেভেলপারের কী কী স্কিল থাকা দরকার || Must needed skills for junior developer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h2 class="py-[10px] text-white text-xl leading-5 font-semibold">Skills required to work in an IT career</h2>
-                        <p class="text-white text-sm opacity-[0.8]">In addition to the core skills, what soft skills he needs? And how to eliminate interview phobia as well as what points should be kept in the resume?</p>
-                        <p class="flex gap-2 text-[#00FF88] items-center absolute bottom-[25px]"><img src="./img/clock.png" alt="clock">45 min</p>
+                        <h2 class="min-[576px]:max-[992px]:text-2xl py-[10px] text-white text-xl leading-5 font-semibold">Skills required to work in an IT career</h2>
+                        <p class="min-[576px]:max-[992px]:text-base text-white text-sm opacity-[0.8]">In addition to the core skills, what soft skills he needs? And how to eliminate interview phobia as well as what points should be kept in the resume?</p>
+                        <p class="max-[576px]:-translate-y-[-20px] flex gap-2 text-[#00FF88] items-center"><img src="./img/clock.png" alt="clock">45 min</p>
                       </div>
-                      <div class="bg-[#250D44] rounded-2xl p-[15px] relative
+                      <div class="bg-[#250D44] rounded-2xl p-[15px] 
             max-[576px]:pb-[50px]"><iframe class="w-full h-[214px] rounded-2xl" width="800" height="614" src="https://www.youtube.com/embed/NwLW7AenmWU?list=PL3Xso75sMgAG0egxTA3_Yv55bO6gDFrlH" title="CGPA আসলেই ম্যাটার করে? | Ayman Sadiq" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-full"></iframe>
-                        <h2 class="py-[10px] text-white text-xl leading-5 font-semibold">Does CGPA really matter? | Ayman Sadiq</h2>
-                        <p class="text-white text-sm opacity-[0.8]">How Much Does CGPA Really Matter? And in this era of AI or artificial intelligence, are our jobs really under threat?</p>
-                        <p class="flex gap-2 text-[#00FF88] items-center absolute bottom-[25px]"><img src="./img/clock.png" alt="clock">116 min</p>
+                        <h2 class="min-[576px]:max-[992px]:text-2xl py-[10px] text-white text-xl leading-5 font-semibold">Does CGPA really matter? | Ayman Sadiq</h2>
+                        <p class="min-[576px]:max-[992px]:text-base text-white text-sm opacity-[0.8]">How Much Does CGPA Really Matter? And in this era of AI or artificial intelligence, are our jobs really under threat?</p>
+                        <p class="max-[576px]:-translate-y-[-20px] flex gap-2 text-[#00FF88] items-center"><img src="./img/clock.png" alt="clock">116 min</p>
                       </div>
                  </div>
              </div>
@@ -183,11 +181,11 @@
       <section class=" max-[576px]:h-auto host  bg-[#1A0B2E] py-[50px] ">
         <div class="host mx-auto w-[90%]">
                <h1 class="max-[576px]:text-2xl text-white text-4xl font-bold text-center pb-[50px]">Meet The Host</h1>
-               <div class="max-[576px]:flex-col max-[576px]:h-auto host-info rounded-2xl flex items-center gap-[50px] bg-[#250D44] h-[280px] p-[40px]">
-                <div class="w-[200px] h-[200px]">
+               <div class="max-[576px]:flex-col max-[576px]:h-auto min-[576px]:max-[992px]:flex-col min-[576px]:max-[992px]:h-auto host-info rounded-2xl flex items-center gap-[50px] bg-[#250D44] h-[280px] p-[40px]">
+                <div class="max-w-100">
                   <img src="./img/host.png" alt="a man podcast host" class="w-full">
                 </div>
-                <div>
+                <div class="max-[576px]:flex max-[576px]:flex-col max-[576px]:items-center max-[576px]:justify-center min-[576px]:max-[992px]:flex min-[576px]:max-[992px]:flex-col min-[576px]:max-[992px]:items-center min-[576px]:max-[992px]:justify-center ">
                   <h1 class="max-[576px]:text-2xl text-4xl text-white font-bold py-[20px]">Alex Kumar</h1>
                   <p class="text-white text-sm opacity-[0.8]">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
                   <div class="host-social flex items-center gap-[30px] mt-[20px]">
@@ -202,16 +200,16 @@
       </section>
     </main>
 
-    <footer class="bg-[url(./img/footer-bg.png)] h-[400px] bg-center bg-cover bg-no-repeat flex items-center justify-center leading-[30px]">
-      <div class="footer-content max-w-[600px] flex flex-col items-center gap-[20px]">
+    <footer class="max-[576px]:py-[20px] bg-[url(./img/footer-bg.png)] h-auto py-[80px] bg-center bg-cover bg-no-repeat flex items-center justify-center leading-[30px]">
+      <div class="max-[576px]:max-w-[300px] footer-content max-w-[550px] flex flex-col items-center gap-[20px]">
         <h1 class="max-[576px]:text-3xl text-5xl text-white text-center font-bold">Tech<span class="nav-logo">Wave</span></h1>
-        <div class="max-[576px]:flex-wrap max-[576px]:justify-center max-[576px]:gap-[30px] footer-icon flex gap-[50px] justify-around mt-[20px]">
+        <div class="max-[576px]:flex-wrap max-[576px]:justify-center max-[576px]:gap-[10px] min-[576px]:max-[992px]:gap-[20px] footer-icon flex gap-[30px] justify-around mt-[20px]">
           <p class="flex items-center text-white gap-[10px]"><img src="./img/spotify.png" alt="spotify">Spotify
           <p class="flex items-center text-white gap-[10px]"><img src="./img/apple-podcast.png" alt="apple-podcast">Apple Podcast</p>
           <p class="flex items-center text-white gap-[10px]"><img src="./img/youtube-podcast.png" alt="youtube-podcast">Youtube</p>
           <p class="flex items-center text-white gap-[10px]"><img src="./img/twitter.png" alt="twitter">Twitter</p>
         </div>
-        <p class="text-white">&copy; 2026 TechWave Podcast. All rights reserved.</p>
+        <p class="max-[576px]:text-xs text-white">&copy; 2026 TechWave Podcast. All rights reserved.</p>
       </div>
     </footer>
   </body>
