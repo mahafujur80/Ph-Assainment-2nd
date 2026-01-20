@@ -2,16 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.nav{
-    align-items: center;
-}
+/* gradient for nav btn  */
 .nav-btn{
     background: linear-gradient(to top right, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
-}
-.nav-logo{
-    background: linear-gradient(to top ,rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
-    color:transparent;
-    -webkit-background-clip: text;
 }
 .fa-arrow-right{
    animation: move-arrow 0.90s ease-in-out  infinite alternate;
@@ -26,6 +19,21 @@
     }
 }
 
-.haide-for-responsive{
-    display: none;
+/* nav logo color  */
+.nav-logo{
+    background: linear-gradient(to top ,rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+    color:transparent;
+    -webkit-background-clip: text;
 }
+
+/* hero buttton hover effect  */
+.banner-btns1:hover {
+    transform: translateX(-8px);
+    transition: all 0.4s ease;
+}
+
+.banner-btns2:hover  {
+  transform: translateX(8px);
+  transition: all 0.4s ease;
+}
+
